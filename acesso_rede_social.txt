@@ -1,0 +1,9 @@
+host	= mysql.hostinger.com.br
+BD 		= u393158169_bd
+User 	= u393158169_us
+Pass	= u393158169
+
+
+
+
+

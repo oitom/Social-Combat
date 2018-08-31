@@ -1,0 +1,1723 @@
+* {
+margin:0;
+padding:0;
+font-family:Verdana;
+line-height:22px
+}
+
+:focus {
+outline:none
+}
+
+body {
+background:#0e74af;
+background:#ecf0c7
+}
+.jogo-desafio{
+	font-weight: bold;
+	color: #BD582C;
+	text-shadow: 0px 0px #000;
+}
+img.gray{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}
+.img-desafios{
+  border-radius: 101px;
+  border: 1px solid #BD582C;
+}
+.perfil-jogo{
+	float: left;
+}
+.desafio-dados p strong{
+	color: #BD582C;
+}
+.icons-social-jogo{
+	display: block;
+}
+.icons-social-jogo li {
+	display: inline;
+}
+.icons-social-jogo li a span{
+	font-size: 30px;
+}
+.desafio-dados p span{
+	font-style: italic;
+}
+.vencedor{
+	background: #2CBD2E !important;
+	border-color:#2CBD2E !important; 
+}
+.derrotado{
+	background: #D02D2D !important;
+	border-color: #D02D2D !important; 
+}
+.icons-social{
+	width: 43%;
+	float: right;
+	list-style-type: none;
+	display: block;
+	margin-top: 20px;
+}
+.icons-social>li{
+	display: inline;
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+.icons-social>li>a{
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.icons-social>li>a>span{
+	font-size: 34px;
+}
+.usuario-reputacao{
+	width: 72%;
+	margin-top: 10px;
+}
+.usuario-reputacao>h4{
+	margin-left: 8px;
+	margin-top: -21px;
+	float: right;
+	margin-right: -51px;
+	font-size: 11px;
+	font-style: italic;
+}
+.usuario-reputacao>.progress-bar-bg{
+	height: 10px;
+	padding: 2px;
+	padding-bottom: 4px;
+}
+.usuario-reputacao>.progress-bar-bg>.progress{
+  background: url('../img/bg-progress.png') #BD582C;
+  background-size: 260px;
+}
+.progress-bar-bg{
+	width: 100%;
+	height: 22px;
+	background-color: #E7D89F;
+	border-radius: 16px;
+	margin-left: 10px;
+	padding: 5px;
+	border: 1px solid #B69D3E;
+}
+.progress{
+	width: 80%;
+	height: 96%;
+	background: url('../img/bg-progress.png') #BD582C;
+	background-size: 164%;
+	border-radius: 40px;
+	border: 1px solid #BD582C;
+}
+p,label {
+	font-size:13px;
+	display:block
+}
+
+span.data-comentario{
+	font-size: 10px;
+	font-style: italic;
+	color: #BD582C;
+}
+
+.img-usuario-feed{
+  width: 330px;
+  height: 60px
+}
+.img-usuario-feed img{
+	width: 58px;
+	margin-top: -17px;
+	height: 59px;
+	border-radius: 40px;
+}
+.usuario-comentario{
+	position: absolute;
+	margin-top: 40px;
+	font-size: 11px;
+	font-style: italic;
+	color: #BD582C;
+	font-weight: bold;
+}
+.feed-comentario{
+	width: 100%;
+}
+.logo-perfil
+{
+	float: left;
+	width: 20%;
+}
+.mensagem-line .topico-descricao{
+	float: left;
+	width: 55%;
+}
+.mensagem-line .topico-hora{
+	float: left;
+	width: 33%;
+}
+.mensagem-line .topico-msg{
+	float: right;
+	font-size: 11px;
+	font-style: italic;	
+}
+.img-conquistas{
+	float: left;
+	width: 17%;
+	margin-right: 2%;
+	border-radius: 10px;
+	text-align: center;
+}
+.desafio-jogador{
+	float: left;
+	width: 17%;
+	margin-right: 2%;
+	border-radius: 10px;
+	text-align: center;
+}
+.desafio-dados{
+	float: left;
+	width: 18%;
+	margin-right: 2%;
+	border-radius: 10px;
+}
+#j1{
+	text-align: left;
+}
+#j2{
+	text-align: right;
+}
+.img-conquistas{
+	float: left;
+	width: 17%;
+	margin-right: 2%;
+	border-radius: 10px;
+}
+
+.img-conquistas p{
+	text-align: center;
+	font-size: 15px;
+}
+			
+ul {
+list-style:none;
+text-align:left
+}
+
+a {
+text-decoration:none;
+color:#a24b25
+}
+
+h2,h3,h4,h5,h6 {
+font-size:18px;
+color:#a24b25
+}
+
+h3 {
+font-size:16px
+}
+
+h4 {
+font-size:14px
+}
+
+h4 strong,h4 a {
+color:#e48312
+}
+
+h1 img {
+width:260px;
+margin-top:-3px
+}
+
+.clear {
+clear:both
+}
+
+input[type="checkbox"] {
+vertical-align:sub
+}
+
+input[type="text"],input[type="email"] {
+width:89%;
+padding:3px 15px;
+border-radius:30px;
+display:inline;
+border:1px solid #a24b25
+}
+
+.col {
+width:33%;
+float:left
+}
+
+.col2 {
+width:49.5%;
+float:left;
+padding-top:20px
+}
+
+.col2>.col2 {
+padding:0
+}
+
+.col2-s {
+width:49.5%;
+padding-right:45%;
+float:left
+}
+
+.col2 input,.col2-s input {
+margin-bottom:20px
+}
+
+#vida-social {
+width:100%;
+min-height:70px;
+margin-bottom:20px
+}
+
+.border-painel {
+border-radius:10px;
+border:1px solid #a24b25;
+padding:10px;
+padding-bottom:30px
+}
+
+.border-painel>label {
+display:block;
+text-align:right
+}
+
+.line {
+width:100%;
+height:1px;
+background-color:#a24b25
+}
+
+.mensagem-line {
+width:97%;
+height:20px;
+display:block;
+border-bottom:1px solid #a24b25;
+padding:11px 12px;
+color:#000
+}
+
+.mensagem-line:hover {
+cursor:pointer;
+background-color:#a24b25;
+color:#FFF
+}
+
+.mensagem-line .msg-amigo {
+float:left
+}
+
+.mensagem-line .msg-hora {
+float:right;
+font-size:11px;
+font-style:italic
+}
+
+.msg-enviada-padrao {
+display:none
+}
+
+.mensagens {
+width:100%;
+margin-top:10px;
+overflow:auto;
+overflow-x:hidden
+}
+
+.mensagens .bloco-msg {
+max-width:90%;
+float:left
+}
+
+.mensagens.msg-enviada >.bloco-msg,.mensagens.msg-enviada >.bloco-foto {
+float:right
+}
+
+.mensagens .bloco-foto {
+width:10%;
+float:left
+}
+
+.mensagens p {
+background:#FFF;
+padding:17px;
+display:block;
+border-radius:16px
+}
+
+.mensagens img {
+width:80%;
+border-radius:33px
+}
+
+.mensagens.msg-enviada img {
+margin-right:11px
+}
+
+.mensagens.msg-enviada p {
+background-color:#E3FBD0
+}
+
+.mensagens.msg-enviada img {
+margin-left:11px
+}
+
+.enviar-mensagem {
+border-top:1px solid #a24b25;
+margin-top:10px;
+padding:10px
+}
+
+.enviar-mensagem textarea {
+width:94%;
+border:1px solid #a24b25;
+height:90px;
+border-radius:10px;
+padding:3%
+}
+
+.img-conquistas{
+	float: left;
+	width: 17%;
+	margin-right: 2%;
+	border-radius: 10px;
+	text-align: center;
+}
+.desafio-jogador{
+	float: left;
+	width: 17%;
+	margin-right: 2%;
+	border-radius: 10px;
+	text-align: center;
+}
+.desafio-dados{
+	float: left;
+	width: 18%;
+	margin-right: 2%;
+	border-radius: 10px;
+}
+#j1{
+	text-align: left;
+}
+#j2{
+	text-align: right;
+}
+
+.button {
+padding:0 25px;
+height:25px;
+display:block;
+float:right;
+text-align:center;
+padding-top:2px;
+font-size:13px;
+border-radius:10px;
+border:none;
+background:#bd582c;
+color:#FFF;
+cursor:pointer;
+float:right
+}
+
+.button:hover {
+background-color:#e48312
+}
+
+#abrir-principal {
+background:none;
+border:none;
+color:#E7D89F;
+margin-top:15px;
+position:absolute;
+margin-left:10px;
+font-size:27px;
+cursor:pointer;
+outline:none
+}
+
+#abrir-principal:hover {
+color:#FFF
+}
+
+header {
+width:100%;
+height:50px;
+background-color:#bd582c;
+position:fixed;
+z-index:9
+}
+
+header h1 {
+text-align:center;
+color:#fff;
+margin-top:11px;
+font-size:20px
+}
+
+header h1:hover {
+color:#FFF;
+cursor:default
+}
+
+#layout {
+width:1000px;
+margin:auto
+}
+
+#perfil,#principal {
+margin-top:50px
+}
+
+#perfil {
+position:fixed;
+float:left;
+width:200px;
+height:100%;
+background-color:#E5DAAD;
+text-align:center;
+/*border-radius:10px*/
+}
+
+#avatar-perfil {
+width:140px;
+height:160px;
+background-color:#ccc;
+margin-top:20px
+}
+
+#nome-perfil {
+font-size:13px;
+color:#bd582c
+}
+
+.col-glr{
+width: 30%;
+float: left;
+margin-right: 25px;
+margin-bottom: 30px;
+}
+
+#nick-perfil {
+font-size:15px;
+font-weight:700;
+color:#bd582c
+}
+
+#principal {
+float:left;
+width:800px;
+margin-left:200px
+}
+
+.active {
+color:#fff!important
+}
+
+.mudar {
+background-color:#F5F5F5
+}
+
+.painel {
+background-color:#E7D89F;
+padding:10px; /*5px 15px 5px 25px;*/
+margin-bottom:10px;
+/*border-radius:10px*/
+}
+
+.topo-painel {
+margin-bottom:30px
+}
+
+#painel-login {
+width:80%;
+min-height:300px;
+margin:0 auto
+}
+
+#painel-login article {
+margin-top:100px;
+width:100%;
+float:left;
+padding:20px;
+background-color:#FFF;
+border-radius:30px;
+border:1px solid #a24b25
+}
+
+#painel-login article .bloco-login {
+width:48%;
+float:left
+}
+
+#painel-login article .bloco-login form {
+margin-top:30px;
+padding-bottom:80px
+}
+
+#painel-login article .bloco-login form label {
+display:block;
+margin-top:10px
+}
+
+#painel-login article .bloco-login a {
+margin-top:22px;
+float:left;
+margin-left:181px;
+font-size:12px;
+text-decoration:underline
+}
+
+#painel-login article .bloco-login h2 {
+text-align:center
+}
+
+#painel-login article .bloco-login form input[type="text"],input[type="password"] {
+width:89%;
+border:1px solid #a24b25;
+padding:3px 15px;
+border-radius:30px
+}
+
+#painel-login article .bloco-login form input[type="submit"] {
+margin-top:10px;
+height:30px;
+margin-right:12px
+}
+
+#painel-login article .divider {
+width:2px;
+height:410px;
+background:#a24b25;
+float:left;
+margin-top:3px;
+margin-right:14px
+}
+
+.login-social {
+width:100%;
+height:50px;
+float:left
+}
+
+.login-social:first-child {
+margin-top:30px
+}
+
+.login-social span {
+float:left;
+font-size:40px
+}
+
+.login-social a.button {
+float:left!important;
+margin-left:10px!important;
+margin-top:3px!important;
+height:30px!important;
+width:165px!important;
+padding-top:5px;
+text-decoration:none!important
+}
+
+.fa-facebook-square {
+color:#4468a6
+}
+
+.fa-twitter-square {
+color:#38c7ff
+}
+
+.fa-google-plus-square {
+color:#ce4638
+}
+
+.btn-facebook {
+background:#4468a6!important
+}
+
+.btn-facebook:hover {
+background-color:#5478B6!important
+}
+
+.btn-twitter {
+background-color:#38c7ff!important
+}
+
+.btn-twitter:hover {
+background-color:#85DDFF!important
+}
+
+.btn-google-plus {
+background-color:#ce4638!important
+}
+
+.btn-google-plus:hover {
+background-color:#E35A4B!important
+}
+
+input[type="button"] {
+width:125px;
+height:25px;
+border-radius:10px;
+border:none;
+background:#bd582c;
+color:#FFF;
+cursor:pointer
+}
+
+input[type="button"]:hover {
+background:#e48312
+}
+
+nav > ul {
+margin-top:10px
+}
+
+nav > ul > li {
+	margin-left:30px;
+	line-height:8px
+}
+
+nav > ul > li a {
+	font-family:Verdana;
+	font-size:11.5px
+}
+
+nav > ul > li a:hover {
+color:#e48312
+}
+
+.titulo-painel {
+float:left
+}
+
+.grupo-pesquisa {
+padding-bottom:70px
+}
+
+#pesquisar {
+margin-top:12px;
+font-size:18px;
+border-radius:42px
+}
+
+.pesquisa-painel input[type="text"] {
+width:60%;
+float:right;
+display:none;
+margin-right:5px;
+height:18px;
+border:1px solid #a24b25!important;
+padding:0;
+padding-left:6px;
+font-size:12px
+}
+
+.a-pesquisa {
+display:block;
+float:right;
+font-size:11px;
+background:#a24b25;
+padding:5px;
+border-radius:10px;
+color:#FFF
+}
+
+.pesquisa-painel {
+width:415px;
+float:right
+}
+
+.pesquisa-painel label {
+width:18px;
+height:17px;
+display:block;
+float:right;
+border-radius:13px
+}
+
+.pesquisa-painel input {
+float:left;
+border:none;
+padding-bottom:1px;
+margin-top:0
+}
+
+.pesquisa-painel span {
+background:#FFF;
+font-size:13px;
+border-radius:5px;
+border:1px solid #bbb;
+padding:1px;
+padding-left:5px;
+padding-right:2px;
+padding-top:3px
+}
+
+.busca-painel {
+float:right;
+width:200px;
+height:17px;
+border-radius:7px;
+border:1px solid #A0A0A0;
+outline:none
+}
+
+.rodape-painel a.fa {
+font-size:16px
+}
+
+.conteudo-painel {
+clear:both
+}
+
+.img-grupo {
+float:left;
+width:30%;
+margin-right:2.5%;
+margin-top:10px;
+border-radius:10px
+}
+
+.img-painel {
+float:left;
+width:12%;
+margin-right:2%;
+border-radius:10px
+}
+
+.busca {
+width:94%;
+height:20px;
+margin-bottom:20px;
+margin-left:10px;
+margin-top:10px;
+float:left
+}
+
+.rodape-painel {
+clear:both;
+text-align:right
+}
+
+.rodape-botao {
+clear:both;
+text-align:center
+}
+
+.grupo {
+margin-left:20px;
+width:45%;
+float:left;
+margin-top:5px
+}
+
+.grupo p {
+font-size:.94em;
+margin-top:9px
+}
+
+.grupo p>a {
+float:left;
+background-color:#58C558
+}
+
+.grupo p>a:hover {
+background-color:#56E356
+}
+
+#amigos-add,.jogos-categoria {
+background-color:#e5e5e5
+}
+
+.conteudo-painel {
+clear:both
+}
+
+.img-painel-amigos {
+float:left;
+width:100%;
+margin-right:2.5%;
+border-radius:10px;
+margin-top:2%
+}
+
+.img-amigo {
+width:10%;
+float:left;
+margin-bottom:10px
+}
+
+.nome-nick {
+float:left;
+font-size:130%;
+width:62%;
+margin-right:10px;
+margin-top:2%;
+margin-left:10px
+}
+
+.opcoes-amigo {
+width:24%;
+float:left
+}
+
+.img-painel2 {
+float:right;
+width:33%;
+margin-left:20px;
+margin-top:2%;
+border-radius:10px;
+background:#a24b25
+}
+
+#sugeridos {
+background-color:#e5e5e5
+}
+
+.sugeridos {
+float:left;
+font-size:130%;
+width:490px;
+margin-right:2%;
+margin-top:2%
+}
+
+.rodape-painel {
+clear:both;
+text-align:right
+}
+
+.img-empresa {
+float:left;
+width:30.5%;
+height:10.22%;
+margin-right:2.5%;
+margin-top:2.5%;
+margin-bottom:2.5%;
+border-radius:10px
+}
+
+#feed {
+background:#FFF;
+min-height:600px
+}
+
+.feed input[type="submit"] {
+margin-top:20px
+}
+
+.empresa-img {
+float:left
+}
+
+.empresa-nome {
+float:left
+}
+
+.empresa-nome p {
+font-size:150%
+}
+
+.empresa-descricao {
+clear:both
+}
+
+.selectize-input {
+border-radius:30px;
+border:1px solid #a24b25
+}
+
+.selectize-dropdown,.selectize-input,.selectize-input input {
+color:#000
+}
+
+.selectize-control.multi .selectize-input [data-value] {
+background-color:#E7D89F;
+border-radius:14px;
+padding-right:13px!important;
+height:20px;
+border:1px solid #a24b25
+}
+
+.btn-toggle,.op-sm {
+display:none
+}
+
+.btn-toggle a {
+font-size:35px
+}
+
+.op-sm.opcoes-amigo {
+width:51%;
+margin:0 auto;
+float:none
+}
+
+.wrapp-opcoes-sm {
+width:100%;
+float:left;
+margin-bottom:20px;
+border-bottom:1px solid #a24b25;
+padding-bottom:22px
+}
+
+#bloco-nova-mensagem {
+display:none
+}
+
+.modal {
+position:fixed;
+top:20%;
+left:40%;
+z-index:9999;
+width:300px;
+background-color:#E5DAAD;
+border:1px solid #bd582c;
+border-radius:10px;
+padding:20px;
+display:none
+}
+
+.modal>a {
+font-size:28px;
+position:absolute;
+right:2px;
+top:-9px
+}
+
+.modal label {
+width:100%;
+display:block
+}
+
+.modal a {
+float:right;
+margin-left:10px;
+margin-top:10px
+}
+
+.modal textarea,#bloco-nova-mensagem textarea {
+width:93%;
+border:1px solid #a24b25;
+height:90px;
+border-radius:10px;
+padding:10px
+}
+
+.back-modal {
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.68);
+position:fixed;
+top:0;
+left:0;
+z-index:9;
+display:none
+}
+
+.btn-nova-mensagem {
+display:none
+}
+
+#bloco-nova-mensagem {
+width:88%;
+padding-bottom:40px
+}
+
+#bloco-nova-mensagem label {
+display:block
+}
+
+#bloco-nova-mensagem textarea {
+height:40px
+}
+
+#bloco-nova-mensagem a {
+margin-right:10px
+}
+
+.add-amigo {
+position:absolute;
+margin-left:48px;
+margin-top:-77px;
+background-color:#58C558;
+padding-top:4px
+}
+
+.add-amigo:hover {
+background-color:#56E356
+}
+
+.feed {
+border:1px solid #a24b25;
+border-radius:10px;
+padding:10px;
+margin-top:20px;
+overflow:auto
+}
+
+.fedd-conteudo {
+overflow:auto;
+padding-top:20px
+}
+
+.img-jogador {
+float:left;
+width:45%
+}
+
+.img-jogador img {
+width:100%
+}
+
+.img-jogador label {
+width:65%;
+margin-top:20px;
+padding:0 17px
+}
+
+.ganhos-jogador {
+float:left;
+width:50%;
+margin-left:10px
+}
+
+.espadas-cruzada {
+width:50%;
+margin:0 auto;
+text-align:center
+}
+
+.espadas-cruzada img {
+border-radius:71px;
+border:1px solid #bd582c;
+background:#E7D89F
+}
+
+.vencedor,.vencedor:hover {
+background:#58C558;
+cursor:default
+}
+
+.derrotado,.derrotado:hover {
+background:#F62929;
+cursor:default
+}
+
+.col2>img {
+width:95%;
+border-radius:10px
+}
+
+.rodape-feed {
+width:100%;
+float:left
+}
+
+.rodape-feed label {
+float:left;
+margin-left:5px;
+font-style:italic
+}
+
+.rodape-feed a {
+font-size:12px;
+color:#bd582c
+}
+
+.rodape-feed p {
+color:#a24b25;
+float:right;
+margin-right:20px
+}
+
+.rodape-feed p a {
+color:#e48312
+}
+
+.comentario-feed {
+width:100%;
+float:left;
+margin-top:20px
+}
+
+.img-comentario {
+width:7%;
+float:left
+}
+
+.img-comentario img {
+width:100%;
+border-radius:50px
+}
+
+.comentario-texto {
+width:70%;
+float:left;
+margin-left:10px;
+margin-top:12px
+}
+
+.bordas {
+width:100%;
+height:80px;
+background:#CCC
+}
+
+.l-min {
+height:20px
+}
+
+.social img {
+width:auto!important;
+float:right;
+margin-top:17px
+}
+
+.progress-bar h4 {
+margin-left:10px
+}
+
+.progress-bar img {
+float:left;
+width:auto!important
+}
+
+.progress-bar span {
+position:absolute;
+margin-top:6px;
+font-size:11px;
+margin-left:-35px;
+color:#FFF
+}
+
+.logo-perfil {
+float:left;
+width:20%
+}
+
+.dados-empresa {
+float:left;
+margin-left:2%;
+width:50%
+}
+
+.menu-sociais {
+float:right;
+margin-top:90px
+}
+
+.menu-sociais ul li {
+display:inline
+}
+
+.site-tablet {
+display:none
+}
+
+.descricao {
+clear:both;
+width:100%
+}
+
+.logo-perfil img {
+width:100%
+}
+
+.label-cadastro-empresa {
+font-size:14px;
+color:#a24b25;
+display:block
+}
+
+#nome,#razao,#email,#imagem-empresa,#website,#facebook,#twitter {
+width:80%
+}
+
+#ddd {
+width:4%
+}
+
+#Telefone {
+width:30%
+}
+
+#inscr,#cnpj {
+width:35%
+}
+
+#label-rua {
+display:inline;
+float:left;
+margin-right:58%
+}
+
+#label-bairro {
+display:inline;
+float:left;
+margin-right:30%
+}
+
+#label-cep {
+display:inline;
+float:left;
+margin-right:31%
+}
+
+#rua {
+width:56%
+}
+
+#bairro,#cep {
+width:30%
+}
+
+#cidade {
+width:50%
+}
+
+#uf {
+width:20%;
+margin-bottom:3%
+}
+
+#numero {
+width:179px
+}
+
+.img-conquistas{
+float: left;
+width: 17%;
+margin-right: 2%;
+border-radius: 10px;
+}
+
+.img-conquistas p{
+text-align: center;
+font-size: 15px;
+}
+
+@media (max-width: 500px) {
+#layout {
+width:100%
+}
+
+#perfil {
+display:none
+}
+
+#principal {
+width:100%;
+margin-left:0
+}
+
+.titulo-painel {
+font-size:1.1em
+}
+
+.img-painel {
+float:left;
+width:23%;
+margin-right:2%;
+border-radius:10px
+}
+
+.invisivel {
+display:none
+}
+
+.mensagem-line {
+width:92.5%
+}
+
+.mensagens .bloco-msg {
+width:100%
+}
+
+.mensagens .bloco-foto {
+display:none
+}
+
+.opcoes-amigo {
+display:none
+}
+
+.btn-toggle {
+display:block;
+width:7%;
+float:right;
+margin-top:68px
+}
+
+.grupo {
+width:88%
+}
+
+#painel-login article .bloco-login {
+width:100%
+}
+
+#painel-login article .divider {
+display:none
+}
+
+#painel-login {
+width:100%
+}
+
+#painel-login article {
+width:initial
+}
+
+.btn-nova-mensagem {
+display:block
+}
+
+.btn-nova-mensagem-modal {
+display:none
+}
+
+.invisivel {
+display:none
+}
+
+.site-tablet {
+display:block
+}
+
+.site-pc {
+display:none
+}
+
+.dados-empresa {
+clear:both
+}
+
+.menu-sociais p {
+float:left
+}
+
+.menu-sociais ul {
+float:right
+}
+
+.menu-sociais {
+clear:both;
+margin-top:0;
+width:100%
+}
+
+.logo-perfil {
+text-align:center;
+width:100%
+}
+
+.logo-perfil img {
+width:40%
+}
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+.col {
+width:30%
+}
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+#layout {
+width:100%
+}
+
+#perfil {
+display:none
+}
+
+#principal {
+width:100%;
+margin-left:0
+}
+
+.titulo-painel {
+font-size:1.3em
+}
+
+.img-amigo {
+width:13%
+}
+
+.nome-nick {
+width:56%
+}
+
+.opcoes-amigo {
+width:26%
+}
+
+#painel-login article .bloco-login {
+width:100%
+}
+
+#painel-login article .divider {
+display:none
+}
+
+.modal {
+left:30%
+}
+
+.col {
+width:50%
+}
+
+.col2 {
+width:100%
+}
+
+.site-tablet {
+display:block
+}
+
+.site-pc {
+display:none
+}
+
+.dados-empresa {
+margin-left:10%
+}
+
+.menu-sociais p {
+float:left
+}
+
+.menu-sociais ul {
+float:right
+}
+
+.menu-sociais {
+clear:both;
+margin-top:0;
+width:100%
+}
+}
+
+@media (max-width: 700px) {
+.busca {
+width:91%
+}
+
+.img-amigo {
+width:20%
+}
+
+.nome-nick {
+width:56%
+}
+
+.opcoes-amigo {
+display:none
+}
+
+.btn-toggle {
+display:block;
+width:7%;
+float:right;
+margin-top:68px
+}
+
+#painel-login article .bloco-login {
+width:100%
+}
+
+#painel-login article .divider {
+display:none
+}
+
+.modal {
+left:20%
+}
+}
+
+@media(max-width: 600px) {
+.col,.col2 {
+width:98%
+}
+}
+
+@media (min-width: 801px) and (max-width: 1020px) {
+#layout {
+width:100%
+}
+
+#perfil {
+width:20%
+}
+
+#principal {
+width:80%;
+margin-left:20%
+}
+
+#abrir-principal {
+display:none
+}
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+.busca {
+width:89%
+}
+}
+
+@media (min-width: 1021px) {
+#abrir-principal {
+display:none
+}
+}
+
+/*Celular*/
+			@media (max-width: 500px) {
+				#layout{
+					width: 100%;
+				}
+				#perfil{
+					display: none;
+				}
+				#principal{
+					width: 100%;
+					margin-left: 0;
+				}
+				.titulo-painel{
+					font-size: 1.1em;
+				}
+				.img-painel {
+					float: left;
+					width: 23%;
+					margin-right: 2%;
+					border-radius: 10px;
+				}
+				.invisivel {
+					display: none;
+				}
+				.site-tablet
+				{
+					display: block; 
+				}
+				.site-pc
+				{
+					display: none;
+				}
+				.dados-empresa
+	    		{
+	    			clear: both;
+
+	    		}   
+	    		.menu-sociais p
+	    		{
+	    			float: left;
+	       		}
+	       		.menu-sociais ul
+	    		{
+	    			float: right;
+	       		}
+	    		.menu-sociais
+	    		{
+	    			clear: both;
+	    			margin-top: 0;
+	    			width: 100%;
+	       		}
+	       		.logo-perfil
+	    		{
+	    			text-align: center;
+					width: 100%;
+	    		}
+
+
+			}
+
+			/*tablet*/
+			@media (min-width: 501px) and (max-width: 800px) {
+				#layout{
+					width: 100%;
+				}
+				#perfil{
+					display: none;
+				}
+				#principal{
+					width: 100%;
+					margin-left: 0;
+				}
+				.titulo-painel{
+					font-size: 1.3em;
+				}
+				.site-tablet
+				{
+					display: block; 
+				}
+				.site-pc
+				{
+					display: none;
+				}
+				.dados-empresa
+    			{	  
+	    			margin-left: 10%;	  
+	    		}  
+	    		.menu-sociais p
+	    		{
+	    			float: left;
+	       		}
+	       		.menu-sociais ul
+	    		{
+	    			float: right;
+	       		}
+				.menu-sociais
+	    		{
+	    			clear: both;
+	    			margin-top: 0;
+	    			width: 100%;
+	       		}
+
+
+			}
+
+			@media (max-width: 767px){
+
+				.busca{
+					width: 89%;
+				}
+			}
+
+
+			/*pc*/
+
+			@media (min-width: 801px) and (max-width: 1020px) {
+				#layout{
+					width: 100%;
+				}
+				#perfil{
+					width: 20%;
+				}
+				#principal{
+					width: 80%;
+					margin-left: 20%;
+				}
+				#abrir-principal{
+					display: none;
+				}
+			}
+
+			/*tv*/
+			@media (min-width: 1021px) {
+				#abrir-principal{
+					display: none;
+				}
+}		
